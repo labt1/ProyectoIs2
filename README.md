@@ -58,7 +58,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 # Repositorio de Software: Usar Git, GitHub o GitLab como repositorio de Código Fuente
   ## Crear branchs: master, desarrollo y para cada integrante del equipo
   
-  ## Integrar los cambios (merge): cada integrante  branch de desarrollo -> master
+  ## Integrar los cambios (merge): cada integrante -> branch de desarrollo -> master
   
-  ## Sincronizar los cambios (rebase o merge): master  branch de desarrollo -> cada integrante
+  ## Sincronizar los cambios (rebase o merge): master -> branch de desarrollo -> cada integrante
 
