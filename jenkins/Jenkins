@@ -1,18 +1,32 @@
 pipeline {
-    agent any
-    environment {
-        CI = 'true'
+    agent {
+        label 'windows'    
     }
+    
+    options{
+        bluidDiscarder(logRotator(numToKeepStr: '5'))
+    }
+    /* {
+        docker {
+            image 'node:lts-buster-slim'
+            args '-p 3000:3000'
+        }
+    } */
+    /* environment {
+        CI = 'true'
+    } */
     stages {
-        stage('Build') {
+        /* stage('Build') {
             steps {
                 sh 'npm install'
             }
-        }
+        } */
 
-        stage('Sonarqube') {
+         stage('Sonarqube') {
             steps{
-                echo 'Problemas'
+                withSonarQubeEnv(installationName: 'sq1'){
+                    sh 'problema javascript'
+                }
             }
         }
         /* stage('Test') {
