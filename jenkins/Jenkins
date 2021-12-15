@@ -15,11 +15,11 @@ pipeline {
             }
         }
 
-        stage('Sonarqube') {
+        /* stage('Sonarqube') {
             steps{
                 echo 'Problemas'
             }
-        }
+        } */
         /* stage('Test') {
             steps {
                 sh './jenkins/scripts/test.sh'
