@@ -68,16 +68,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   
   ![Jenkins](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/pipeline.JPG)
 ```
-pipeline {
+pipeline{
     agent any
-    tools {nodejs "node"}
     stages{
-        stage('dependencias')
+        stage("Dependencias")
         {
             steps{
-                bat 'npm i && npm ci'
+                nodejs(nodeJSInstallationName: 'nodejs'){
+                    bat "npm i"
+                }
             }
         }
+        
     }
 }
   ```
