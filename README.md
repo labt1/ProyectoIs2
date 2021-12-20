@@ -75,7 +75,7 @@ pipeline{
         {
             steps{
                 nodejs(nodeJSInstallationName: 'nodejs'){
-                    bat "npm i"
+                    bat "npm i && npm ci"
                 }
             }
         }
