@@ -82,6 +82,8 @@ pipeline {
 }
   ```
   El pipeline contiene las siguientes tareas:
+  <br/>  
+
   ### Construccion Automatica
   Este proyecto ya contaba con una construccion automatica en [JSON](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/package.json)
   ```
@@ -126,7 +128,10 @@ pipeline {
   
   ```
   
+ <br/>  
+ 
  ### Analisis Estatico
+ 
  Ejecutamos sonar localmente
  
  
@@ -134,6 +139,8 @@ pipeline {
 <p align="center">
  <img width="60%" height="50%" src="https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/SonarUp.JPG">
 </p>
+
+<br/>  
 
  Creamos un archivo de configuracion:[sonar-project.properties](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/sonar-project.properties)
  ```
@@ -147,6 +154,9 @@ sonar.login=060e5cda987542c8595d5e2f7f8778d818c0b35b
 sonar.exclusions=src/*.css
 sonar.javascript.lcov.reportPath=reports/js/cov.dat
  ```
+ 
+ <br/>  
+
  Analizamos el proyecto desde la consola con el comando: sonar-scanner
 
 </p>   
@@ -159,11 +169,11 @@ sonar.javascript.lcov.reportPath=reports/js/cov.dat
  <img width="60%" height="50%" src="https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/runsonarscanner2.JPG">
 </p>
 
+<br/>  
+
  Visualizamos  el resultado en este [PDF]()
  
 <br/>  
-[http://localhost:9000](http://localhost:9000)
- 
  
  </p>   
 <p align="center">
