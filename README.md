@@ -161,8 +161,8 @@ sonar.javascript.lcov.reportPath=reports/js/cov.dat
 
  Visualizamos  el resultado en este [PDF]()
  
- <br/>  
-http://localhost:9000
+<br/>  
+[http://localhost:9000]
  
  
  </p>   
@@ -172,5 +172,5 @@ http://localhost:9000
 
 </p>   
 <p align="center">
- <img width="60%" height="50%" src="https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/visualizacionsonarhost.JPG">
+ <img width="60%" height="50%" src="https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/informesonarhost.JPG">
 </p>
