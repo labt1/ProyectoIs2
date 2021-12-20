@@ -1,11 +1,10 @@
 pipeline {
-    agente any
+    agent any
     tools {nodejs "node"}
     stages{
         stage('build')
         {
             steps{
-                git 'https://github.com/evargashe/ProyectoIs2.git'
                 bat 'npm install'
             }
         }
