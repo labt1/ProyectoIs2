@@ -142,9 +142,9 @@ sonar.exclusions=src/*.css
 sonar.javascript.lcov.reportPath=reports/js/cov.dat
  ```
  Analizamos el proyecto desde la consola con el comando: sonar-scanner
- (https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/runsonarscanner1.JPG)
- (https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/runsonarscanner2.JPG)
+ ![Sonar](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/runsonarscanner1.JPG)
+ ![Sonar](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/runsonarscanner2.JPG)
  Visualizamos  el resultado en este [PDF]()
- (https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/visualizacionsonarhost.JPG)
- (https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/informesonarhost.JPG)
+ ![Sonar](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/visualizacionsonarhost.JPG)
+ ![Sonar](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/informesonarhost.JPG)
  
