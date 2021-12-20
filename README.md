@@ -128,7 +128,7 @@ pipeline {
   
  ### Analisis Estatico
  Ejecutamos sonar localmente
- (https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/SonarUp.JPG)
+ ![Sonar](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/SonarUp.JPG)
  Creamos un archivo de configuracion:[sonar-project.properties](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/sonar-project.properties)
  ```
  sonar.projectKey=proyectoFinalIs2
