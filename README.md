@@ -67,4 +67,62 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
   Para el proyecto, implementar un CI/CD en jenkins. El codigo de pipeline se puede ver en el archivo [Jenkins](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/jenkins/Jenkins)
   
   ![Jenkins](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/pipeline.JPG)
-
+```
+pipeline {
+    agent any
+    tools {nodejs "node"}
+    stages{
+        stage('dependencias')
+        {
+            steps{
+                bat 'npm i && npm ci'
+            }
+        }
+    }
+}
+  ```
+  El pipeline contiene las siguientes tareas:
+  ### Construccion Automatica
+  Este proyecto ya contaba con una construccion automatica en [JSON](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/package.json)
+  ```
+  {
+  "name": "snapshot",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.19.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+  
+  ```
+ 
