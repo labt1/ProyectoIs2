@@ -128,7 +128,13 @@ pipeline {
   
  ### Analisis Estatico
  Ejecutamos sonar localmente
- ![Sonar](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/SonarUp.JPG)
+ 
+ 
+ </p>   
+<p align="center">
+ <img width="60%" height="50%" src="https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/SonarUp.JPG">
+</p>
+
  Creamos un archivo de configuracion:[sonar-project.properties](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/sonar-project.properties)
  ```
  sonar.projectKey=proyectoFinalIs2
@@ -142,9 +148,29 @@ sonar.exclusions=src/*.css
 sonar.javascript.lcov.reportPath=reports/js/cov.dat
  ```
  Analizamos el proyecto desde la consola con el comando: sonar-scanner
- ![Sonar](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/runsonarscanner1.JPG)
- ![Sonar](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/runsonarscanner2.JPG)
+
+</p>   
+<p align="center">
+ <img width="60%" height="50%" src="https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/runsonarscanner1.JPG">
+</p>
+
+</p>   
+<p align="center">
+ <img width="60%" height="50%" src="https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/runsonarscanner2.JPG">
+</p>
+
  Visualizamos  el resultado en este [PDF]()
- ![Sonar](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/visualizacionsonarhost.JPG)
- ![Sonar](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/informesonarhost.JPG)
  
+ <br/>  
+http://localhost:9000
+ 
+ 
+ </p>   
+<p align="center">
+ <img width="60%" height="50%" src="https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/visualizacionsonarhost.JPG">
+</p>
+
+</p>   
+<p align="center">
+ <img width="60%" height="50%" src="https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/visualizacionsonarhost.JPG">
+</p>
