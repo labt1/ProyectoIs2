@@ -2,10 +2,10 @@ pipeline {
     agent any
     tools {nodejs "node"}
     stages{
-        stage('build')
+        stage('dependencias')
         {
             steps{
-                bat 'npm install'
+                bat 'npm i && npm ci'
             }
         }
     }
