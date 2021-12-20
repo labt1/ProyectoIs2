@@ -1,20 +1,14 @@
-pipeline {
+pipeline{
     agent any
-
     stages{
-        stage('sonarqube analisis y  instalar dependencias')
+        stage("Dependencias")
         {
             steps{
-                nodejs(nodeJSInstallationName: 'nodejs')
-                {
-                    sh "npm install & npm ci"
-                    withSonarQubeEnv('sonar')
-                    {
-                        sh "npm install sonar-scanner"
-                        sh "npm run sonar"
-                    }
+                nodejs(nodeJSInstallationName: 'nodejs'){
+                    bat "npm i"
                 }
             }
         }
+        
     }
 }
