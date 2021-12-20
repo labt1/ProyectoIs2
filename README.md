@@ -55,10 +55,13 @@ Everyone is welcomed to contribute to this project. You can contribute either by
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 
-# Repositorio de Software: Usar Git, GitHub o GitLab como repositorio de Código Fuente
-  ## Crear branchs: master, desarrollo y para cada integrante del equipo
-  
-  ## Integrar los cambios (merge): cada integrante -> branch de desarrollo -> master
-  
-  ## Sincronizar los cambios (rebase o merge): master -> branch de desarrollo -> cada integrante
+# Actividades
 
+  ### Crear branchs: master, desarrollo y para cada integrante del equipo
+  
+  ### Integrar los cambios (merge): cada integrante -> branch de desarrollo -> master
+  
+  ### Sincronizar los cambios (rebase o merge): master -> branch de desarrollo -> cada integrante
+  
+  ## Pipeline de CI/CD: Para el Proyecto, implementar un pipeline de CI/CD en Jenkins con las siguientes tareas 
+  Para el proyecto, implementar un CI/CD en jenkins. El codigo de pipeline se puede ver en el archivo [Jenkins](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/jenkins/Jenkins)
