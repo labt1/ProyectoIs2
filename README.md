@@ -162,7 +162,7 @@ sonar.javascript.lcov.reportPath=reports/js/cov.dat
  Visualizamos  el resultado en este [PDF]()
  
 <br/>  
-[http://localhost:9000]
+[http://localhost:9000](http://localhost:9000)
  
  
  </p>   
