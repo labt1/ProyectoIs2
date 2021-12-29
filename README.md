@@ -186,7 +186,6 @@ sonar-scanner
 
 
 ![Sonar](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/visualizacionsonarhost.JPG)
-![IMG](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/CI.JPG)
 
 
 
