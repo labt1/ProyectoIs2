@@ -190,11 +190,11 @@ sonar-scanner
 ## Pruebas de Seguridad:
 
 
-- Visualizar resultados de SonarScanner en SonarQube: en este [PDF](https://drive.google.com/file/d/1VEhhykfUfs77WOSKnlOkXqGUF2TgS_vU/view?usp=sharing)
+- Para las pruebas de seguridad usamos OWASP ZAP todo el documento del resultado de las pruebas se puede ver: en este [PDF](https://drive.google.com/file/d/1OlgSlTi0Xoep-0x-Z-Mnm_Cz7soOmCiB/view?usp=sharing)
 
 ## Pruebas de Performance:
 
-- Visualizar resultados de SonarScanner en SonarQube: en este [PDF](https://drive.google.com/file/d/1VEhhykfUfs77WOSKnlOkXqGUF2TgS_vU/view?usp=sharing)
+- La prueba de performance fue realizada en JMETER la cual se puede ver: en este [PDF](https://drive.google.com/file/d/1KzkJJVn-pl28KqdohtOZ9B6-8IFLSWda/view?usp=sharing)
 
 
 
