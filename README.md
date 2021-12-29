@@ -187,6 +187,46 @@ sonar-scanner
 
 ![Sonar](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/visualizacionsonarhost.JPG)
 
+##Pruebas Unitarias
+
+
+```
+it("renders without crashing", () => {
+  const div = document.createElement("div");
+  ReactDOM.render(<App />, div);
+  ReactDOM.unmountComponentAtNode(div);
+});
+
+
+
+```
+
+```
+test('click the button search calls evente handler once', () => {
+
+  const note = {
+    content: 'This is a important test',
+    important: true
+  }
+
+  const mockSearch = jest.fn()
+
+  const componentSearch = render(<Search search={note} toggleImportance={mockSearch} />) 
+
+  const button = componentSearch.getByText('Make not important')
+
+  fireEvent.click(button)
+
+  expect(mockSearch).toHaveBeenCalledTimes(1)
+  
+})
+```
+
+
+![](https://github.com/evargashe/ProyectoIs2/blob/Fabian-Florez/IMG%20Fabian/Captura%20test.JPG)
+
+
+
 ## Pruebas de Seguridad:
 
 
