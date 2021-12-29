@@ -61,7 +61,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Integrar los cambios (merge)
 
-## Sincronizar los cambios (rebase o merge): 
+
 <br/>
 
 # Pipeline de CI/CD
