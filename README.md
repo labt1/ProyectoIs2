@@ -63,6 +63,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Sincronizar los cambios (rebase o merge): 
 <br/>
+
 # Pipeline de CI/CD
 
 Para el Proyecto, implementar um pipeline de CI/CD en Jenkins: 
