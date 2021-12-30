@@ -215,6 +215,8 @@ sonar-scanner
 ![Sonar](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/visualizacionsonarhost.JPG)
 
 ## Pruebas Unitarias
+Se encuentran en en el archivo [App.test.js](https://github.com/evargashe/ProyectoIs2/blob/main/src/App.test.js)
+<br/>
 Para correr los test se debe de usar el siguiente comando pe:
 
 ```
