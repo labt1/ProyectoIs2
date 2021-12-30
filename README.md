@@ -71,16 +71,22 @@ git merge <branch>
 ```
 ![Merge](https://github.com/evargashe/ProyectoIs2/blob/main/imgMain/merge1.JPG)
 <br/>
+
 ![Merge](https://github.com/evargashe/ProyectoIs2/blob/main/imgMain/merge3.JPG)
 <br/>
+
 ![Merge](https://github.com/evargashe/ProyectoIs2/blob/main/imgMain/merge5.JPG)
-- Visualizamos los merge
+
+- Visualizamos el historial del repositorio
 ![Merge](https://github.com/evargashe/ProyectoIs2/blob/main/imgMain/merge2.JPG)
 <br/>
+
 ![Merge](https://github.com/evargashe/ProyectoIs2/blob/main/imgMain/merge4.JPG)
 <br/>
+
 ![Merge](https://github.com/evargashe/ProyectoIs2/blob/main/imgMain/merge6.JPG)
 <br/>
+
 
 # Pipeline de CI/CD
 
