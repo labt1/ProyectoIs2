@@ -54,6 +54,11 @@ Everyone is welcomed to contribute to this project. You can contribute either by
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Manual de instalacion y configuracion del pipeline de CI/CD de Jenkins
+
+El manual se encuentra en el archivo ![Manual](https://drive.google.com/file/d/11Tmw1XZYJNaNi1EZ6eNPLdOi94aWiLmw/view?usp=sharing)
+<br/>
+
 # Repositorio de Software: Usar Git, GitHub o GitLab como repositorio de Código Fuente
 
 ## Crear branchs: master, desarrollo y para cada integrante del equipo
