@@ -78,6 +78,9 @@ git merge <branch>
 ![Merge](https://github.com/evargashe/ProyectoIs2/blob/main/imgMain/merge5.JPG)
 
 - Visualizamos el historial del repositorio
+```
+git log --oneline
+```
 ![Merge](https://github.com/evargashe/ProyectoIs2/blob/main/imgMain/merge2.JPG)
 <br/>
 
