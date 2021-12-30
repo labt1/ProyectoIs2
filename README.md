@@ -56,7 +56,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Manual de instalacion y configuracion del pipeline de CI/CD de Jenkins
 
-El manual se encuentra en el archivo ![Manual](https://drive.google.com/file/d/11Tmw1XZYJNaNi1EZ6eNPLdOi94aWiLmw/view?usp=sharing)
+El manual se encuentra en el archivo [Manual](https://drive.google.com/file/d/11Tmw1XZYJNaNi1EZ6eNPLdOi94aWiLmw/view?usp=sharing)
 <br/>
 
 # Repositorio de Software: Usar Git, GitHub o GitLab como repositorio de Código Fuente
