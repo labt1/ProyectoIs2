@@ -23,6 +23,11 @@ yarn-error.log*
 
 # config
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /yarn.lock
 >>>>>>> Fabian-Florez
+=======
+/yarn.lock
+
+>>>>>>> jeanpierre
