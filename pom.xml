@@ -9,9 +9,9 @@
     <properties>
         <sonar.sources>src/</sonar.sources>
         <!-- <sonar.tests>src/test</sonar.tests> -->
-        <sonar.host.url>http://3.90.110.25:9000/</sonar.host.url>
-		<sonar.login>login</sonar.login>
-		<sonar.password>is2unsa</sonar.password>
+        <sonar.host.url>http://localhost:9000/</sonar.host.url>
+		<sonar.login></sonar.login>
+		<sonar.password></sonar.password>
         <!-- For JavaScript -->
         <sonar.javascript.lcov.reportPath>reports/js/lcov.dat</sonar.javascript.lcov.reportPath>
     </properties>
