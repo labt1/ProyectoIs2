@@ -188,7 +188,13 @@ sonar-scanner
 ![Sonar](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/imgs/visualizacionsonarhost.JPG)
 
 ## Pruebas Unitarias
+Para correr los test se debe de usar el siguiente comando pe:
 
+```
+npm run test
+```
+
+Renderizar el App
 
 ```
 it("renders without crashing", () => {
@@ -200,6 +206,8 @@ it("renders without crashing", () => {
 
 
 ```
+
+Llamando al boton search por lo menos una vez 
 
 ```
 test('click the button search calls evente handler once', () => {
