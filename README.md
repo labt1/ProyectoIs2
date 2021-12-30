@@ -117,6 +117,9 @@ pipeline{
                 }
             }
         }
+        
+    }
+}
 ```
 El pipeline contiene las siguientes tareas:
 <br/>
