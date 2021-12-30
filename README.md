@@ -87,9 +87,6 @@ git log --oneline
 ![Merge](https://github.com/evargashe/ProyectoIs2/blob/main/imgMain/merge4.JPG)
 <br/>
 
-![Merge](https://github.com/evargashe/ProyectoIs2/blob/main/imgMain/merge6.JPG)
-<br/>
-
 
 # Pipeline de CI/CD
 
