@@ -65,8 +65,21 @@ El manual se encuentra en el archivo [Manual](https://drive.google.com/file/d/11
 ![Image](https://github.com/evargashe/ProyectoIs2/blob/main/imgMain/ramas.JPG)
 
 ## Integrar los cambios (merge)
-
-
+- Hacemos merge con los siguientes comandos
+```
+git merge <branch>
+```
+![Merge](https://github.com/evargashe/ProyectoIs2/blob/main/imgMain/merge1.JPG)
+<br/>
+![Merge](https://github.com/evargashe/ProyectoIs2/blob/main/imgMain/merge3.JPG)
+<br/>
+![Merge](https://github.com/evargashe/ProyectoIs2/blob/main/imgMain/merge5.JPG)
+- Visualizamos los merge
+![Merge](https://github.com/evargashe/ProyectoIs2/blob/main/imgMain/merge2.JPG)
+<br/>
+![Merge](https://github.com/evargashe/ProyectoIs2/blob/main/imgMain/merge4.JPG)
+<br/>
+![Merge](https://github.com/evargashe/ProyectoIs2/blob/main/imgMain/merge6.JPG)
 <br/>
 
 # Pipeline de CI/CD
