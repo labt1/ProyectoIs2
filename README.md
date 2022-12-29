@@ -90,7 +90,7 @@ git log --oneline
 
 # Pipeline de CI/CD
 
-Para el Proyecto, implementar um pipeline de CI/CD en Jenkins: 
+Para el Proyecto, implementar un pipeline de CI/CD en Jenkins: 
 <br/>
 El codigo se puede ver en el archivo [Jenkins](https://github.com/evargashe/ProyectoIs2/blob/branch-edwar/jenkins/Jenkins)
 
